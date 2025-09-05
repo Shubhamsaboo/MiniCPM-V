@@ -4,36 +4,11 @@
 
 **A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone**
 
-  <strong>[中文](./README_zh.md) |
-  English</strong>
-
-
-
-<span style="display: inline-flex; align-items: center; margin-right: 2px;">
-  <img src="./assets/wechat.png" alt="WeChat" style="margin-right: 4px;">
-  <a href="docs/wechat.md" target="_blank"> WeChat</a> &nbsp;|
-</span>
-&nbsp;
-<span style="display: inline-flex; align-items: center; margin-left: -8px;">
-<img src="./assets/discord.png" alt="Discord" style="margin-right: 4px;">
-  <a href="https://discord.gg/rftuRMbqzf" target="_blank"> Discord</a> &nbsp;
-</span>
-
-
-
-<p align="center">
-   MiniCPM-V 4.5 <a href="https://huggingface.co/openbmb/MiniCPM-V-4_5">🤗</a> <a href="http://101.126.42.235:30910/">🤖</a> | MiniCPM-o 2.6 <a href="https://huggingface.co/openbmb/MiniCPM-o-2_6">🤗</a>  <a href="https://minicpm-omni-webdemo-us.modelbest.cn/"> 🤖</a> | <a href="https://github.com/OpenSQZ/MiniCPM-V-Cookbook">🍳 Cookbook</a> | 
-  📄 Technical Report (Coming Soon)
-</p>
-
 </div>
 
 **MiniCPM-V** is a series of efficient end-side multimodal LLMs (MLLMs), which accept images, videos and text as inputs and deliver high-quality text outputs. **MiniCPM-o** additionally takes audio as inputs and provides high-quality speech outputs in an end-to-end fashion. Since February 2024, we have released 7 versions of the model, aiming to achieve **strong performance and efficient deployment**. The most notable models in the series currently include:
 
-
 - **MiniCPM-V 4.5**: 🔥🔥🔥 The latest and most capable model in the MiniCPM-V series. With a total of 8B parameters, this model **outperforms GPT-4o-latest, Gemini-2.0 Pro, and Qwen2.5-VL 72B** in vision-language capabilities, making it the most performant on-device multimodal model in the open-source community. This version brings **new features including efficient high-FPS and long video understanding (up to 96x compression rate for video tokens), controllable hybrid fast/deep thinking, strong handwritten OCR and complex table/document parsing**. It also advances MiniCPM-V's popular features such as trustworthy behavior, multilingual support and end-side deployability. 
-
-- **MiniCPM-o 2.6**: ⭐️⭐️⭐️ The most capable model in the MiniCPM-o series. With a total of 8B parameters, this end-to-end model **achieves comparable performance to GPT-4o-202405 in vision, speech, and multimodal live streaming**, making it one of the most versatile and performant models in the open-source community. For the new voice mode, MiniCPM-o 2.6 **supports bilingual real-time speech conversation with configurable voices**, and also allows for fun capabilities such as emotion/speed/style control, end-to-end voice cloning, role play, etc. Due to its superior token density, MiniCPM-o 2.6 can for the first time **support multimodal live streaming on end-side devices** such as iPad.
 
 
 
